@@ -140,6 +140,7 @@ body {
 }
 
 .card__body .profile__infos h1 {
+  font-size: 20px;
   margin-bottom: 5px;
 }
 
