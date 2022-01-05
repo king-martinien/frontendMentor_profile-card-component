@@ -139,11 +139,11 @@ body {
           transform: translateY(-25px);
 }
 
-.card__body .profile__infos h3 {
+.card__body .profile__infos h1 {
   margin-bottom: 5px;
 }
 
-.card__body .profile__infos h3 span {
+.card__body .profile__infos h1 span {
   color: var(--clr-dark-grayish-blue);
   font-weight: 400;
   margin-left: 8px;
