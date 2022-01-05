@@ -1,0 +1,82 @@
+.card {
+  border-radius: 14px;
+  overflow: hidden;
+  width: 92%;
+  margin: 0 auto;
+  @media screen and (min-width: 320px) {
+    width: 320px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: auto;
+  }
+
+  &__hero {
+    display: flex;
+  }
+
+  &__body {
+    background-color: var(--clr-white);
+
+    .profile {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      &__img {
+        display: flex;
+        position: relative;
+        top: -50px;
+        padding: 4px;
+        border-radius: 50%;
+        background-color: var(--clr-white);
+
+        img {
+          border-radius: inherit;
+        }
+      }
+
+      &__infos {
+        text-align: center;
+        transform: translateY(-25px);
+
+        h3 {
+          margin-bottom: 5px;
+          span {
+            color: var(--clr-dark-grayish-blue);
+            font-weight: 400;
+            margin-left: 8px;
+          }
+        }
+
+        .city {
+          color: var(--clr-dark-grayish-blue);
+        }
+      }
+
+      &__stats {
+        border-top: 1px solid var(--clr-dark-gray);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .stat {
+          text-align: center;
+          padding: 24px 0;
+
+          &__nber {
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 4px;
+          }
+
+          &__label {
+            font-size: 14px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+    }
+  }
+}
